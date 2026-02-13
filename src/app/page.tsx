@@ -27,7 +27,7 @@ export default function Home() {
       <main className="w-full max-w-2xl flex flex-col items-center gap-8">
         <div className="text-center space-y-3">
           <h1 className="text-4xl font-bold tracking-tight text-accent font-sans">
-            Skill Health Checker
+            Agent Skill Health Checker
           </h1>
           <p className="text-muted text-sm">
             Paste a GitHub link to a tessl skill and get your eval score

@@ -4,19 +4,19 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Skill Health Checker — Rate your Tessl skill",
+  title: "Agent Skill Health Checker — Rate your Tessl skill",
   description:
     "Paste a GitHub link to a tessl skill and instantly see your eval score with actionable improvement guidance.",
   openGraph: {
-    title: "Skill Health Checker",
+    title: "Agent Skill Health Checker",
     description:
       "Paste a GitHub link to a tessl skill and instantly see your eval score.",
     type: "website",
-    siteName: "Skill Health Checker",
+    siteName: "Agent Skill Health Checker",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Skill Health Checker",
+    title: "Agent Skill Health Checker",
     description:
       "Paste a GitHub link to a tessl skill and instantly see your eval score.",
   },
