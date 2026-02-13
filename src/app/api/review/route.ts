@@ -4,6 +4,8 @@ import { runTesslReview } from "@/lib/tessl-runner";
 import { parseReviewOutput } from "@/lib/parse-review";
 import type { ReviewError, ReviewResponse } from "@/lib/types";
 
+export const maxDuration = 120;
+
 // In-memory rate limiting: 5 requests per minute per IP
 const rateLimitMap = new Map<string, { count: number; resetAt: number }>();
 const RATE_LIMIT = 5;
